@@ -7,7 +7,7 @@
 A chess engine in at most 4,096 bytes of Python. It plays the make.fun
 house gauntlet through the env: iterative-deepening alpha-beta with a
 transposition table, quiescence search with delta pruning, null-move
-pruning, late-move reductions, killer move ordering, repetition avoidance,
+pruning, late-move reductions, killer and history move ordering, repetition avoidance,
 and a tapered piece-square evaluation — all under a fixed node budget per
 move, so every game replays move for move.
 
